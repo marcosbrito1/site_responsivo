@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#c1{
+    background-color: black;
+    width: 100%;
+    min-height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#logo{
+width: 20%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+#menu{
+width: 80%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+}
+
+#c2{
+    background: url('imagens/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    size: 100%;
+}
+
+#button{
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+
+#c3{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+h2{
+    color: white;
+}
+
+
+#c4{
+        background-color: white;
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: inherit; 
+        padding-top: 3%;
+}
+
+#c4 h2{
+    color: black;
+}
+
+#servicos{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 3%;
+}
+
+.servico{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;   
+    word-wrap: break-word; 
+    padding: 5px;
+}
+
+.servico img{
+    width: 100px;
+    height: 100px;
+}
+.servico p{
+    color: black;
+    text-align: center;
+        
+}
+
+
+
+#c5{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    flex-wrap:inherit; 
+}
+
+#c5 h2{
+color: black;
+}
+#imagens{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 3%;
+}
+.imagem{
+    background-color: black;
+    display: flex;
+    height: 300px;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;   
+    word-wrap: break-word; 
+    padding: 5px;
+}
+.imagem img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#c6{
+    background-color: black;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    flex-wrap:inherit; 
+}
+
+
+#contatos{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-top: 3%;
+    
+}
+
+
+.contato{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 10px;   
+    padding: 5px;
+}
+
+.contato img{
+    width: 100px;
+    height: 100px;
+}
+.contato p{
+    color: black;
+    text-align: center;
+        
+}
+
+
+
+
+
+#formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: inherit; 
+    padding-top: 3%;
+}
+
+.form{
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#logo img{
+    width: 100%;
+    height: 75px;
+}
+
+#c6 h2{
+    padding-top: 3%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    color: black;
+
+}
+
+
+
